@@ -14,8 +14,6 @@ export default function Details(props) {
     }
   }, [props.selected]);
 
-  console.log(details)
-
   return (
     props.selected !== 0 && (
       <div className="details">
